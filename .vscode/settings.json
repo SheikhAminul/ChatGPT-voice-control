@@ -1,0 +1,12 @@
+{
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"files.exclude": {
+		".vscode": true,
+		"dist": true,
+		"build": true,
+		"node_modules": true,
+		"package-lock.json": true
+	}
+}

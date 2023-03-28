@@ -1,0 +1,53 @@
+{
+	"name": "chatgpt-voice-control-chrome-extension",
+	"version": "2.0.0",
+	"description": "Voice chat / voice control and read aloud for OpenAI ChatGPT.",
+	"scripts": {
+		"build": "webpack --mode development --no-devtool",
+		"watch:build": "webpack --mode development --no-devtool --watch",
+		"watch:build-devtool": "webpack --mode development --devtool cheap-module-source-map --watch",
+		"dist": "webpack --output-path dist --no-devtool"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SheikhAminul/ChatGPT-voice-control-chrome-extension.git"
+	},
+	"keywords": [
+		"ChatGPT",
+		"ChatGPT Voice Control",
+		"Voice Control",
+		"ChatGPT Read Aloud",
+		"Read Aloud",
+		"Chrome Extension",
+		"Browser Extension"
+	],
+	"author": "Sheikh Aminul <aminulfse@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SheikhAminul/ChatGPT-voice-control-chrome-extension/issues"
+	},
+	"homepage": "https://github.com/SheikhAminul/ChatGPT-voice-control-chrome-extension#readme",
+	"devDependencies": {
+		"@types/chrome": "^0.0.222",
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"autoprefixer": "^10.4.14",
+		"copy-webpack-plugin": "^11.0.0",
+		"css-loader": "^6.7.3",
+		"file-loader": "^6.2.0",
+		"postcss-loader": "^7.0.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.8.0",
+		"react-router-dom": "^6.9.0",
+		"style-loader": "^3.3.1",
+		"tailwindcss": "3.2.7",
+		"ts-loader": "^9.4.2",
+		"typescript": "^4.9.5",
+		"webpack": "^5.76.1",
+		"webpack-cli": "^5.0.1"
+	},
+	"dependencies": {
+		"storage-sync-lite": "^1.0.19"
+	}
+}
