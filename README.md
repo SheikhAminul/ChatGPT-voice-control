@@ -5,7 +5,7 @@ Have voice conversations with ChatGPT! Voice control for ChatGPT. Talk to ChatGP
 [Click here to install it from Chrome Web Store](https://chrome.google.com/webstore/detail/baahncfnjojaofhdmdfkpeadigoemkif):
 
 [<img src="https://i.ibb.co/QvD8gCJ/chrome-banner.png">](https://chrome.google.com/webstore/detail/baahncfnjojaofhdmdfkpeadigoemkif)
-[<img src="https://i.ibb.co/j4qTWzm/edge-banner.png">](https://chrome.google.com/webstore/detail/baahncfnjojaofhdmdfkpeadigoemkif)
+[<img src="https://i.ibb.co/j4qTWzm/edge-banner.png">](https://microsoftedge.microsoft.com/addons/detail/voicewave-voice-control/emlfpgnpefmloajnkkhpklcapghmgmae)
 
 Take your conversations with ChatGPT to the next level with this fully customizable powerful Chrome extension! This extension adds advanced voice control and read aloud features to ChatGPT, allowing you to communicate with the AI in multiple languages and listen to its responses with ease.
 
