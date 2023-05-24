@@ -19,7 +19,8 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"https://chat.openai.com/*"
+				"https://chat.openai.com/*",
+				"https://chat.zhile.io/*"
 			],
 			"js": [
 				"scripts/external-integration.js"
@@ -28,6 +29,7 @@
 		}
 	],
 	"host_permissions": [
-		"https://chat.openai.com/*"
+		"https://chat.openai.com/*",
+		"https://chat.zhile.io/*"
 	]
 }
