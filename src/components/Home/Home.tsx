@@ -15,7 +15,7 @@ const Home: FC = () => {
 	const [status, setStatus] = useState(-1)
 
 	useEffect(() => {
-		chrome.tabs.query({ active: true, url: ['https://chat.openai.com/*'] }).then(([tab]) => {
+		chrome.tabs.query({ active: true, url: ['https://chat.openai.com/*', 'https://chatgpt.com/*'] }).then(([tab]) => {
 			setStatus(tab ? 1 : 0)
 		})
 	}, [])
